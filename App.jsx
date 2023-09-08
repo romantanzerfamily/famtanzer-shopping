@@ -1,19 +1,15 @@
-import React, { useState } from 'react';
-import training from './training';
+import React from 'react';
+import Shoppinglist from './components/Shoppinglist';
 import './style.css';
-import Boxbox from './components/Boxbox';
 
-/*
-Open features
+import data from './data.json';
 
-- add plus button to add entry
-- show the current week
-- show also 2 more weeks
-*/
 function App() {
   return (
     <div className="app">
-      <Boxbox />
+      {data.map((list, index) => {
+        <Shoppinglist title={list.title} key={index} />;
+      })}
     </div>
   );
 }

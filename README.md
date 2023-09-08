@@ -2,6 +2,10 @@
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/cce-training-zxhcsz)
 
-Bugs
+FEATURES
 
-- disappearding
+- manages shopping lists
+
+BUGS
+
+- won't display shoppinglist
