@@ -1,0 +1,33 @@
+body {
+  background: darkred;
+  border: dotted 2px lightcoral;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 2px;
+  padding: 2px;
+}
+
+div.app {
+  border: dotted 2px wheat;
+  padding: 10px;
+}
+
+div.boxbox {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(3, 100px);
+}
+
+div.box {
+  background: lightblue;
+  border: dotted 1px lightsalmon;
+  color: black;
+  line-height: 1.2em;
+  margin: 5px;
+  padding: 2px 5px;
+  text-align: center;
+}
+div.box .subtitle {
+  font-family: 'Calistoga', cursive;
+  font-size: xx-large;
+}

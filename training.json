@@ -1,0 +1,30 @@
+{
+  "training": [
+    {
+      "name": "loneworker",
+      "supplier": "CCE",
+      "link": "",
+      "groups": [
+        { "name": "cleaner", "frequency": "1x" },
+        { "name": "hallhire+kitchen", "frequency": "1x" },
+        { "name": "office", "frequency": "1x" }
+      ]
+    },
+    {
+      "name": "GDPR",
+      "supplier": "iHasco",
+      "link": "",
+      "groups": [
+        { "name": "cleaner", "frequency": "annual" },
+        { "name": "foodbank", "frequency": "annual" },
+        { "name": "hallhire", "frequency": "annual" },
+        { "name": "hallhire+kitchen", "frequency": "annual" },
+        { "name": "kidsworker", "frequency": "annual" },
+        { "name": "office", "frequency": "annual" },
+        { "name": "stewards", "frequency": "annual" },
+        { "name": "studentworkers", "frequency": "annual" },
+        { "name": "youthworkers", "frequency": "annual" }
+      ]
+    }
+  ]
+}
