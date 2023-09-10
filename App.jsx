@@ -8,7 +8,9 @@ function App() {
   return (
     <div className="app">
       {data.map((list, index) => {
-        <Shoppinglist title={list.title} key={index} />;
+        return (
+          <Shoppinglist title={list.title} key={index} items={list.items} />
+        );
       })}
     </div>
   );

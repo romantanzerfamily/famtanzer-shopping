@@ -2,10 +2,8 @@
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/cce-training-zxhcsz)
 
-FEATURES
+ISSUES
 
-- manages shopping lists
-
-BUGS
-
-- won't display shoppinglist
+- list items need to be checkable
+- add amount
+- use real data
