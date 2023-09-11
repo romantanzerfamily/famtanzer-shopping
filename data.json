@@ -1,20 +1,35 @@
 [
   {
-    "title": "Unsere Einkaufsliste",
-    "items": [
-      { "name": "Gurke", "price": 0.9 },
-      { "name": "1", "price": 0.9 },
-      { "name": "Gurke", "price": 0.9 },
-      { "name": "Gurke", "price": 0.9 }
+    "title": "Einkaufslisten",
+    "selected": true,
+    "lists": [
+      {
+        "title": "Unsere Einkaufsliste",
+        "items": [
+          { "name": "Gurke", "price": 0.9 },
+          { "name": "1", "price": 0.9 },
+          { "name": "Gurke", "price": 0.9 },
+          { "name": "Gurke", "price": 0.9 }
+        ]
+      },
+      {
+        "title": "Studenten Einkauf",
+        "items": [
+          { "name": "Gurke", "price": 0.9 },
+          { "name": "1", "price": 0.9 },
+          { "name": "Gurke", "price": 0.9 },
+          { "name": "Gurke", "price": 0.9 }
+        ]
+      }
     ]
   },
   {
-    "title": "Studenten Einkauf",
-    "items": [
-      { "name": "Gurke", "price": 0.9 },
-      { "name": "1", "price": 0.9 },
-      { "name": "Gurke", "price": 0.9 },
-      { "name": "Gurke", "price": 0.9 }
+    "title": "Monatliche Ausgaben",
+    "lists": [
+      {
+        "title": "Wohnen",
+        "items": [{ "name": "Miete", "amount": 775 }]
+      }
     ]
   }
 ]
