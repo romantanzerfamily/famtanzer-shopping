@@ -11,3 +11,18 @@ div.app {
   border: dotted 2px wheat;
   padding: 10px;
 }
+
+div.item {
+  display: grid;
+  grid-template-columns: 200px 100px;
+}
+div.item > div {
+  border: solid 1px white;
+  margin: 1px;
+  padding: 1px;
+}
+
+div.input input {
+  display: inline-block;
+  width: 92%;
+}
